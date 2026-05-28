@@ -28,7 +28,7 @@
 ## Setup
 
 ```bash
-cd /Users/sh4d0u/Desktop/Tools/sh4d0uSploit
+cd sh4d0uSploit
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -77,11 +77,10 @@ python sh4d0usploit.py
 - `modules/media.py` — screenshot, screen recording, and media extraction
 - `modules/file_manager.py` — push/pull files and APK extraction
 - `modules/banner.py` — terminal banners and menu art
-- `docs/PROJECT_DIAGRAM.md` — architecture diagram (ignored by Git)
+
 
 ## Notes
 
-- `docs/PROJECT_DIAGRAM.md` is excluded from version control via `.gitignore`.
 - `Downloaded-Files/` is used for output and temporary file storage.
 
 ## License
